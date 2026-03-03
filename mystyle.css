@@ -1,34 +1,32 @@
 p {
     font-family: Inter, sans-serif;
-    color: red;
+    color: whitesmoke;
 }
 
 @keyframes myAnimation {
-  from {background-color: red;}
-  /*to {background-color: yellow;}*/
-  to {background-color: green;}
+  0% {background-image: url("https://tse2.mm.bing.net/th/id/OIP.5WpGDTCnw4WX1n4C1-y6lAHaFj?pid=Api&P=0&h=180"); background-size: fill; background-repeat: no-repeat; background-attachment: fixed;}  
+  25% {background-image: url("https://tse3.mm.bing.net/th/id/OIP.b_u0Ue1PrPXKtCXHfLS4TAHaEK?pid=Api&P=0&h=180"); background-size: fill; background-repeat: no-repeat; background-attachment: fixed;}
+  50% {background-image: url("https://wallpaperaccess.com/full/38636.jpg"); background-size: fill; background-repeat: no-repeat; background-attachment: fixed;}
+  75% {background-image: url("https://wallpapercave.com/wp/wp2708351.jpg"); background-size: fill; background-repeat: no-repeat; background-attachment: fixed;}
+  100% {background-image: url("https://wallpaperaccess.com/full/1638902.jpg"); background-size: fill; background-repeat: no-repeat; background-attachment: fixed;}
 }
 
 .highlight{
-    background-color: yellow;
+    background-color: purple;
     opacity: 0.3;
 }
 
 h1 {
     font-family: Inter, sans-serif;
     font-size: 20px;
-    color: blue;
-    border: 2px solid green;
+    color: whitesmoke;
+    border: 2px double black;
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
-
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.5WpGDTCnw4WX1n4C1-y6lAHaFj?pid=Api&P=0&h=180");
     animation-name: myAnimation;
     animation-duration: 4s;
+    animation-direction: alternate;
     animation-iteration-count: infinite;
 }
