@@ -120,6 +120,13 @@ a:hover {
     object-fit: cover;
 }
 
+li{
+    font-family: Verdana, sans-serif;
+    color: #ffffffff;
+    text-align: left;
+    font-size: 18px;
+}
+
 
 /*--graphite: #2d2d2aff;
 --steel-blue: #6ea4bfff;
