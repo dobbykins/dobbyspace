@@ -1,0 +1,58 @@
+/* ── Global reset & variables ───────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors — swap these to restyle everything */
+  --color-bg: #0f0f0f;
+  --color-surface: #1a1a1a;
+  --color-border: #2a2a2a;
+  --color-accent: #7c6dfa;
+  --color-text: #e8e8e8;
+  --color-text-muted: #888;
+
+  /* Spacing scale */
+  --space-sm: 0.75rem;
+  --space-md: 1.5rem;
+  --space-lg: 3rem;
+  --space-xl: 6rem;
+
+  /* Typography */
+  --font: 'Segoe UI', system-ui, sans-serif;
+  --radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
