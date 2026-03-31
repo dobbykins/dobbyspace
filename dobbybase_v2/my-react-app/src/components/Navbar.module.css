@@ -1,0 +1,38 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 15, 15, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-sm) 0;        /* ← remove the horizontal padding */
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: var(--space-md);
+}
+
+.links a {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
