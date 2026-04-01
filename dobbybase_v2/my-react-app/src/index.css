@@ -10,9 +10,9 @@
   --color-bg: #0f0f0f;
   --color-surface: #1a1a1a;
   --color-border: #2a2a2a;
-  --color-accent: #7c6dfa;
+  --color-accent: orange;
   --color-text: #e8e8e8;
-  --color-text-muted: #888;
+  --color-text-muted: #e8e8e8;
 
   /* Spacing scale */
   --space-sm: 0.75rem;
